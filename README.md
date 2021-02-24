@@ -11,3 +11,17 @@ that a guest has arrived.
 
 3)Guest Picture Notification: Attached with the sensor is an esp32 camera that takes the picture of the visitor, and sends it to the Blynk app via FTP server. So the homeowner can 
 also instantly check the identity of the visitor on their mobile.
+
+Materials used
+ESP32 Cam board.
+A mobile phone with a Blynk app
+Servo motors 
+Neopixel rings
+
+Setup
+The code has been implemented using C .The images have been hosted using 000webhost. The blynk app then accesses the URL since it is public.
+
+Issues
+The image captured by esp32 camera comes up corrupted some times.
+
+
